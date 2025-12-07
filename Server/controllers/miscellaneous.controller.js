@@ -6,7 +6,7 @@ import sendEmail from '../utils/sendEmail.js';
 /**
  * @CONTACT_US
  * Handles the submission of the "Contact Us" form by the user.
- * Sends an email to the admin with the user's details.
+  
  */
 export const contactUs = asyncHandler(async (req, res, next) => {
     const { name, email, message } = req.body;
